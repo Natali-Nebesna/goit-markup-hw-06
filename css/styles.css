@@ -1,3 +1,4 @@
+/* ===== Common styles==== */
 ul, ol {
 list-style-type: none;
 }
@@ -10,6 +11,16 @@ button {
 img {
     display: block;
 }
+
+body {
+ font-family: "Roboto", sans-serif;  
+ color: #2e2f42;;
+ background-color: #fff;  
+}
+/* ==== / Common styles==== */
+
+
+/* ====Header styles==== */
 .logo {
 font-family: "Raleway", sans-serif;
 font-weight: 700;
@@ -23,7 +34,6 @@ color: #4d5ae5;
     color: #2e2f42;
 }
 .menu-link {
-    font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -31,10 +41,61 @@ color: #4d5ae5;
     color: #2e2f42;
 }
 .contact-link {
-    font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+}
+
+.menu-link:hover, 
+.menu-link:focus {
+color: #404bbf;}
+
+.contact-link:hover,
+.contact-link :focus {
+color: #404bbf;}
+
+/* ==== / Header styles==== */
+
+/* ====Hero section==== */
+.hero {
+    background-color: #2e2f42;
+}
+.main-title {
+font-weight: 700;
+font-size: 56px;
+line-height: 1.07143;
+letter-spacing: 0.02em;
+text-align: center;
+color: #fff;
+}
+.main-btn {
+  background-color: #4d5ae5;  
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #fff;
+}
+.main-btn :hover,
+.main-btn :focus {
+   background-color: #404bbf; 
+}
+/* ====/Hero section==== */
+
+/* ====Top section==== */
+.top-section-list-title {
+font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+letter-spacing: 0.02em;
+color: #2e2f42;
+}
+.top-section-list-text {
+font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #434455;
 }
