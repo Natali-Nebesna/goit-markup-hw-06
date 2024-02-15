@@ -14,7 +14,7 @@ img {
 
 body {
  font-family: "Roboto", sans-serif;  
- color: #2e2f42;;
+ color: #2e2f42;
  background-color: #fff;  
 }
 /* ==== / Common styles==== */
@@ -25,7 +25,7 @@ body {
 font-family: "Raleway", sans-serif;
 font-weight: 700;
 font-size: 18px;
-line-height: 1.16;
+line-height: 1.17;
 letter-spacing: 0.03em;
 text-transform: uppercase;
 color: #4d5ae5;
@@ -41,6 +41,7 @@ color: #4d5ae5;
     color: #2e2f42;
 }
 .contact-link {
+    font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
@@ -53,7 +54,7 @@ color: #4d5ae5;
 color: #404bbf;}
 
 .contact-link:hover,
-.contact-link :focus {
+.contact-link:focus {
 color: #404bbf;}
 
 /* ==== / Header styles==== */
@@ -65,12 +66,13 @@ color: #404bbf;}
 .main-title {
 font-weight: 700;
 font-size: 56px;
-line-height: 1.07143;
+line-height: 1.07;
 letter-spacing: 0.02em;
 text-align: center;
 color: #fff;
 }
 .main-btn {
+  font-family: "Roboto", sans-serif;
   background-color: #4d5ae5;  
   font-weight: 500;
   font-size: 16px;
@@ -78,9 +80,9 @@ color: #fff;
   letter-spacing: 0.04em;
   color: #fff;
 }
-.main-btn :hover,
-.main-btn :focus {
-   background-color: #404bbf; 
+.main-btn:hover,
+.main-btn:focus {
+background-color: #404BBF; 
 }
 /* ====/Hero section==== */
 
@@ -106,7 +108,7 @@ color: #434455;
 .team-titel {
 font-weight: 700;
 font-size: 36px;
-line-height: 1.11111;
+line-height: 1.11;
 letter-spacing: 0.02em;
 text-transform: capitalize;
 text-align: center;
@@ -137,7 +139,7 @@ color: #2e2f42;
 .portfolio-titel {
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.11111;
+  line-height: 1.11;
   letter-spacing: 0.02em;
   text-transform: capitalize;
   text-align: center;
@@ -165,22 +167,19 @@ background-color: #fff;
 /*====Footer section====*/
 .section-footer {
     background-color: #2e2f42;
+
 }
-.icon-item {
+.main-icon{
+font-family: "Raleway", sans-serif;
 font-weight: 700;
 font-size: 18px;
-line-height: 1.16667;
-letter-spacing: 0.03em;
-text-transform: uppercase;
-color: #f4f4fd;
-}
-.icon-item-one {
-font-weight: 700;
-font-size: 18px;
-line-height: 1.16667;
+line-height: 1.17;
 letter-spacing: 0.03em;
 text-transform: uppercase;
 color: #4d5ae5;
+}
+.icon-item {
+color: #f4f4fd;
 }
 .main-icon-text {
 font-size: 16px;
