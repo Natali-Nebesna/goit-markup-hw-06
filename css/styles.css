@@ -8,9 +8,6 @@ a {
 button {
     cursor: pointer;
 }
-img {
-    display: block;
-}
 
 body {
  font-family: "Roboto", sans-serif;  
@@ -103,7 +100,7 @@ color: #434455;
 }
 /* ====Team==== */
 .team {
-    background-color: #f4f4fd;
+background-color: #f4f4fd;
 }
 .team-titel {
 font-weight: 700;
