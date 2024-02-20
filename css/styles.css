@@ -1,6 +1,8 @@
 /* ===== Common styles==== */
 ul, ol {
 list-style-type: none;
+padding: 0;
+margin: 0;
 }
 a {
     text-decoration: none;
@@ -18,6 +20,20 @@ body {
 
 
 /* ====Header styles==== */
+.page-header {
+  border-bottom: 1px solid #e7e9fc;
+}
+.conteiner {
+  width: 1158px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+.heder-conteiner {
+  display: flex;
+}
+.page-nav{
+  display: flex;
+}
 .logo {
 font-family: "Raleway", sans-serif;
 font-weight: 700;
@@ -26,6 +42,11 @@ line-height: 1.17;
 letter-spacing: 0.03em;
 text-transform: uppercase;
 color: #4d5ae5;
+margin-right: 76px;
+}
+.menu {
+display: flex;
+gap: 40px;
 }
 .text-color{
     color: #2e2f42;
@@ -38,7 +59,12 @@ color: #4d5ae5;
     color: #2e2f42;
 }
 .main-contacts{
- font-style: normal;    
+ font-style: normal; 
+ margin-left: auto;   
+}
+.contacts {
+  display: flex;
+  gap: 40px;
 }
 .contact-link {
    
