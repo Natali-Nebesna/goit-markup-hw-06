@@ -38,6 +38,7 @@ body {
 
   
 /* ====Header styles==== */
+
 .page-header {
   padding-top: 24px;
   padding-bottom: 24px;
@@ -45,9 +46,9 @@ body {
 }
 
 .heder-container {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+        display: flex;
+  /* justify-content: space-between; */
+       align-items: center;
 }
 .page-nav{
   display: flex;
@@ -70,7 +71,7 @@ display: flex;
 gap: 40px;
 }
 .text-color{
-    color: #2e2f42;
+       color: #2e2f42;
 }
 .menu-link {
     font-weight: 500;
@@ -90,69 +91,72 @@ gap: 40px;
   display: flex;
   gap: 40px;
 }
+.contact-item {
+       padding: 24px 0;
+}
 .contact-link {
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #434455;
-    padding-top: 24px;
-    padding-bottom: 24px;
-    display: block;
+       /* font-style: normal;   */
+       font-weight: 400;
+       font-size: 16px;
+       line-height: 1.5;
+       letter-spacing: 0.02em;
+       color: #434455;
+       /* padding-top: 24px;
+       padding-bottom: 24px; */
+        display: block;
 }
 
 .menu-link:hover, 
 .menu-link:focus {
-color: #404bbf;}
+        color: #404bbf;}
 
 .contact-link:hover,
 .contact-link:focus {
-color: #404bbf;}
+       color: #404bbf;}
 
 /* ==== / Header styles==== */
 
 /* ====Hero section==== */
+.main-hero {
+       min-height: 600px;}
+
 .hero {
-    background-color: #2e2f42;
-    width: 1440px;
+       background-color: #2e2f42;
+       width: 1440px;
+       text-align: center;
+       padding: 188px 0;
    }
-.hero-container {
-  padding-top: 188px;
-  padding-bottom: 292px;
-  padding-left: 472px;
-  padding-right: 472px
-}
+
 .main-title {
-max-width: 496px;
-font-weight: 700;
-font-size: 56px;
-line-height: 1.07;
-letter-spacing: 0.02em;
-text-align: center;
-color: #fff;
-margin-bottom: 48px;
-;
+       max-width: 496px;
+       font-weight: 700;
+       font-size: 56px;
+       line-height: 1.07;
+       letter-spacing: 0.02em;
+       color: #fff;
+       margin-right: auto;
+       margin-left: auto;
+       margin-bottom: 48px;
 }
 .main-btn {
-  font-family: "Roboto", sans-serif;
-  background-color: #4d5ae5;  
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.04em;
-  color: #fff;
-  border-radius: 4px;
-  min-width: 169px;
-  height: 56px;
-  border: none;
-  padding-left: 30px;
-  padding-right: 30px;
- margin: 0 auto;
- display: block;
+       font-family: "Roboto", sans-serif;
+       background-color: #4d5ae5;  
+       font-weight: 500;
+       font-size: 16px;
+       line-height: 1.5;
+       letter-spacing: 0.04em;
+       color: #fff;
+       border-radius: 4px;
+       min-width: 169px;
+       height: 56px;
+       border: none;
+       padding: 16px 32px;
+       margin: 0 auto;
+       display: block;
 }
 .main-btn:hover,
 .main-btn:focus {
-background-color: #404BBF; 
+       background-color: #404BBF; 
 }
 /* ====/Hero section==== */
 
@@ -298,6 +302,7 @@ width:calc((100%-72)/3)
 /*====Footer section====*/
 .section-footer {
     background-color: #2e2f42;
+    padding: 120px 0;
 
 }
 .main-icon{
@@ -308,12 +313,15 @@ line-height: 1.17;
 letter-spacing: 0.03em;
 text-transform: uppercase;
 color: #4d5ae5;
+margin-bottom: 16px;
+display: inline-block;
 }
 .icon-item {
 color: #f4f4fd;
 }
 .main-icon-text {
-font-size: 16px;
+  max-width: 264px;
+  font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 color: #f4f4fd;
