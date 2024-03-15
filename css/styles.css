@@ -216,6 +216,21 @@ background-color: #404bbf;
        max-width: 264px;
        flex-wrap: wrap;
 }
+.icon-center {
+       display: flex;
+       align-items: center;
+       justify-content: center;
+       height: 112px;
+       margin-bottom: 8px;
+       left: 0;
+       top: 0;
+       box-sizing: border-box;
+       border: 1px solid rgb(142, 143, 153);
+       border-radius: 4px;
+       background: #f4f4fd;
+       border: 1px solid #8e8f99;
+
+   }
 .top-section-list-title {
        font-weight: 500;
        font-size: 20px;
