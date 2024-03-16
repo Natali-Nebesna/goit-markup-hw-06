@@ -205,30 +205,28 @@ background-color: #404bbf;
  
 }
 .top-section-list-item {
-       /* font-weight: 500; */
        font-size: 20px;
        line-height: 1.2;
        letter-spacing: 0.02em;
        color: #2e2f42;
        background-color: #FFFFFF;
-       /* display: flex; */
-       flex-grow: calc((100% - 72px) / 4);
+       width: calc((100% - 72px) / 4);
        max-width: 264px;
        flex-wrap: wrap;
+
 }
 .icon-center {
-       display: flex;
-       align-items: center;
-       justify-content: center;
-       height: 112px;
-       margin-bottom: 8px;
-       left: 0;
-       top: 0;
-       box-sizing: border-box;
-       border: 1px solid rgb(142, 143, 153);
-       border-radius: 4px;
-       background: #f4f4fd;
-       border: 1px solid #8e8f99;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 112px;
+    margin-bottom: 8px;
+    left: 0;
+    top: 0;
+    box-sizing: border-box;
+    border: 1px solid rgb(142, 143, 153);
+    border-radius: 4px;
+
 
    }
 .top-section-list-title {
