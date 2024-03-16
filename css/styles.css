@@ -218,7 +218,7 @@ body {
   height: 112px;
   background: #f4f4fd; 
  }
- 
+
 .top-section-list-title {
        font-weight: 500;
        font-size: 20px;
@@ -272,6 +272,22 @@ body {
        letter-spacing: 0.02em;
        text-align: center;
        color: #434455;
+}
+
+.icon-team-block{
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+  top: 8px;
+  left: 0;
+  gap: 24px;
+}
+
+.svg-href{
+  fill: #f4f4fd;
 }
 .team-list-item{
        background-color: #fff;
