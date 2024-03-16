@@ -279,11 +279,9 @@ body {
   justify-content: center;
   gap: 24px;
   background-repeat: no-repeat;
-  background-position: center;
-  position: relative;
-  top: 8px;
-  left: 0;
-  gap: 24px;
+  background-position:left 16px, top 8px, right 16px;
+
+ 
 }
 
 .svg-href{
