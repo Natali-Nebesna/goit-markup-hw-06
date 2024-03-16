@@ -203,21 +203,22 @@ body {
 
 .top-section-list-item {
   width: calc((100% - 72px) / 4);
+}
+
+.icon-centr {
   max-width: 264px;
-  flex-wrap: wrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   left: 0;
   top: 0;
   margin-bottom: 8px;
   border: 1px solid #8e8f99;
   border-radius: 4px;
-  width: 264px;
   height: 112px;
   background: #f4f4fd; 
-}
-
-.icon-center {
-  
  }
+ 
 .top-section-list-title {
        font-weight: 500;
        font-size: 20px;
