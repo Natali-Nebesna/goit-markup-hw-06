@@ -418,17 +418,17 @@ transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 } 
 
-.container_2{
+.container-2{
      display: flex;
      align-items: baseline;
 }
 
-.footer-container_1 {
+.footer-container-1 {
      margin-right: 120px;
  
 }
 
-.footer-container_2{
+.footer-container-2{
   margin-right: 120px;
 
 }
