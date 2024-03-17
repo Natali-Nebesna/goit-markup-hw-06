@@ -294,6 +294,11 @@ width: 40px;
   .svg-href{
   fill: #f4f4fd;
 }
+
+.icon-link:hover,
+.icon-link:focus{
+  background-color: #404bbf;
+}
 .team-list-item{
        background-color: #fff;
        width: calc((100% - 72px) / 4);
