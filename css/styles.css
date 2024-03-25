@@ -643,7 +643,6 @@ padding: 72px 24px 24px 24px;
     color: #8e8f99;
     display: block;
     margin-bottom: 4px;
-
   }
   
  .form-label-wrap{
@@ -666,7 +665,7 @@ padding: 72px 24px 24px 24px;
 }
 
  .form-name-input-icone{
-  fill: #2E2F42;
+  /* fill:#f4f4fd; */
   position: absolute;
   left: 16px;
   top: 50%;
@@ -675,7 +674,7 @@ padding: 72px 24px 24px 24px;
  }
 
  .form-label-input:focus+ .form-name-input-icone{
-  fill: #4D5AE5;
+  fill: #4d5ae5;
  }
 
  .form-container-comment{
