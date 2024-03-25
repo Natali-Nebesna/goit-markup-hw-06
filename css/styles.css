@@ -625,13 +625,13 @@ padding: 72px 24px 24px 24px;
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
-    margin-top: 72px;
+    /* margin-top: 72px; */
     margin-bottom: 16px;
   }
 
   .form-container{
     margin-bottom: 8px;
-    margin-left: 24px;
+    /* margin-left: 24px; */
   }
  
   .form-label{
@@ -679,7 +679,7 @@ padding: 72px 24px 24px 24px;
 
  .form-container-comment{
   margin-bottom: 16px;
-  margin-left: 24px;
+  /* margin-left: 24px; */
  }
 
  .form-label-textarea{
@@ -707,7 +707,7 @@ padding: 72px 24px 24px 24px;
   width: 360px;
   height: 16px;
   margin-bottom: 24px;
-  margin-left: 24px;
+  /* margin-left: 24px; */
   
 }
 
