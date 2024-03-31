@@ -29,9 +29,11 @@ body {
 }
 .container {
   /* max-width: 1158px; */
-  width: 100%;
-  padding-left: 15px;
-  padding-right: 15px;
+  width: 320px;
+  /* padding-left: 15px;
+  padding-right: 15px; */
+  padding-left: 16px;
+  padding-right: 16px;
   margin-right: auto;
   margin-left: auto;
 }
@@ -191,7 +193,9 @@ body {
 
 /* ====Top section==== */
 .top-section{
-  padding: 120px 0;
+  /* padding: 120px 0; */
+
+  
 }
 
 .visually-hidden {
@@ -211,7 +215,7 @@ body {
 .top-section-list {
   display: flex;
   flex-wrap: wrap;
-  gap: 24px;
+  gap: 72px;
 }
 
 .top-section-list-item {
@@ -250,12 +254,7 @@ width: 100%;
        line-height: 1.5;
        letter-spacing: 0.02em;
        color: #434455;
-       font-weight: 500;
- 
-
-
-     
-        
+       font-weight: 500;       
 }
 /* ====Team==== */
 .team {
@@ -785,4 +784,13 @@ padding: 72px 24px 24px 24px;
 .container-btn:focus{
   background-color: #404bbf;
   border: none;
+}
+
+@media screen and (min-width: 768px){
+  gap: 24px;
+  
+}
+
+@media screen and (min-width: 1158px){
+  
 }
