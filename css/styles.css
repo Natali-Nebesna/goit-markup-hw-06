@@ -190,9 +190,9 @@ body {
 /* ====/Hero section==== */
 
 /* ====Top section==== */
+
 .top-section{
   /* padding: 120px 0; */
- 
 }
 
 .visually-hidden {
@@ -234,20 +234,21 @@ width: 100%;
  }
 
 .top-section-list-title {
-       font-weight: 700;
-        font-size: 36px;
-       line-height: 1.2;
-       letter-spacing: 0.02em;
-       text-align: center;
-       color: #2e2f42;
-       margin-bottom: 8px;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #2e2f42;
+  margin-bottom: 8px;
 }
+
 .top-section-list-text {
-       font-size: 16px;
-       line-height: 1.5;
-       letter-spacing: 0.02em;
-       color: #434455;
-       font-weight: 500;       
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+  font-weight: 500;       
 }
 /* ====Team==== */
 .team {
@@ -779,48 +780,43 @@ padding: 72px 24px 24px 24px;
   border: none;
 }
 
+/* ====Top section==== */
 @media screen and (min-width: 768px){
+  
   .container{
-     width: 768px;
-     padding-left: 16px;
-     padding-right: 16px;
+    width: 768px;
+    padding-left: 16px;
+    padding-right: 16px;
   }
-
   .top-section-list-item{
-     width: calc((100% - 24px) / 2);
-
+    width: calc((100% - 24px) / 2);
   }
   .top-section-list{
-     gap: 72px 24px;
-     padding: 96px 0;
+    gap: 72px 24px;
+    padding: 96px 0;
   }
-
 }
 
 @media screen and (min-width: 1158px){
   .container{
-    /* max-width: 1128px; */
-  width: 1440px;
+    width: 1440px;
     padding-left: 156px;
     padding-right: 156px;
   }
-  
   .top-section-list-item{
     width: calc((100% - 72px) / 4);
   }
   .top-section-list{
-    gap: 8px 24px;}
-
+    gap: 8px 24px;
+  }
     .icon-centr{
     display: flex;
   }
-
   .top-section-list-title{
     font-weight: 500;
     font-size: 20px;
     text-align:justify;
   }
-
   .top-section-list-text{
     font-weight: 400;  
   }
